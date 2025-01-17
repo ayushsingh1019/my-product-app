@@ -1,74 +1,53 @@
-<<<<<<< HEAD
-# my-product-app
-=======
-# Getting Started with Create React App
+# Product App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Table of Contents
+- [Overview](#overview)
+- [Setup and Installation](#setup-and-installation)
+- [Key Features](#key-features)
+- [Technologies Used](#technologies-used)
 
-## Available Scripts
+## Overview
+Product App is a responsive React application designed to display and manage products with features like search, filtering, sorting, and the ability to mark products as favorites. This project uses modern web development tools and practices to create a seamless user experience.
 
-In the project directory, you can run:
+## Setup and Installation
 
-### `npm start`
+Follow these steps to set up and run the project locally:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### 1. Clone the Repository
+First, clone the repository to your local machine:
+```bash
+git clone https://github.com/ayushsingh1019/my-product-app.git
+cd product-app
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Key Features
 
-### `npm test`
+1 - Product Display
+Fetches product data using Axios from a mock API or JSON file.
+Displays products in a responsive grid/card layout that adjusts based on screen size.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+2 - Header Navigation
+Includes a logo and 2-3 links with dropdown options.
+Fully responsive navigation for mobile and desktop views.
 
-### `npm run build`
+3 - Filters and Sorting
+Allows filtering products by category.
+Provides sorting functionality by price (ascending or descending).
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+4 - Search Functionality
+Users can search for products by name to quickly find specific items.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+5 - Product Details
+Users can view detailed information about a product either in a modal or on a separate page.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+6 - Favorites Feature
+Users can mark products as favorites, and their preferences are saved in localStorage for persistence across sessions.
 
-### `npm run eject`
+7 - Responsive Design
+The layout is fully responsive, ensuring the app looks great on devices of all screen sizes (desktop, tablet, mobile).
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Technologies Used
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
->>>>>>> 31dce96 (initial commit)
+1- React.js - Front-end library used for building the user interface.
+2- Tailwind CSS - Utility-first CSS framework used for styling and responsive design.
+3- Axios - HTTP client used for fetching product data from a mock API or JSON file.
+4- React Router - Used to manage navigation and routing between product pages and the home page.
