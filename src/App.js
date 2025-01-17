@@ -6,7 +6,7 @@ import ErrorPage from './pages/ErrorPage';
 
 function App() {
   return (
-    <Router>
+    <Router basename="/my-product-app">
       <Routes>
         <Route path="/" element={<ProductPage />} />
         <Route path="/cart" element={<CartPage />} />
