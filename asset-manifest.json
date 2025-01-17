@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/my-product-app/static/css/main.e887567a.css",
+    "main.js": "/my-product-app/static/js/main.4a8117e2.js",
+    "static/js/488.b5f9e425.chunk.js": "/my-product-app/static/js/488.b5f9e425.chunk.js",
+    "static/media/Cart-Logo (2).png": "/my-product-app/static/media/Cart-Logo (2).902c30fc8a71a7cbb759.png",
+    "index.html": "/my-product-app/index.html",
+    "main.e887567a.css.map": "/my-product-app/static/css/main.e887567a.css.map",
+    "main.4a8117e2.js.map": "/my-product-app/static/js/main.4a8117e2.js.map",
+    "488.b5f9e425.chunk.js.map": "/my-product-app/static/js/488.b5f9e425.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e887567a.css",
+    "static/js/main.4a8117e2.js"
+  ]
+}
